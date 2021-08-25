@@ -5,7 +5,6 @@ class BlogsController < ApplicationController
   # GET /blogs or /blogs.json
   def index
     @blogs = Blog.all
-    byebug
     @page_title = "My Portfolio Blog"
   end
 
