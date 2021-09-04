@@ -45,7 +45,7 @@ body {
 }
 
 .cover-container {
-  max-width: 55rem;
+  max-width: 50rem;
 }
 
 
@@ -54,7 +54,7 @@ body {
  */
 .masthead {
   margin-bottom: 2rem;
-      width: 55rem;
+  width: 50rem;
 }
 
 .masthead-brand {
@@ -127,4 +127,10 @@ body {
 
  .register-text {
    text-align: right;
+ }
+
+ .login > .card {
+   width: 22rem;
+   margin: 0 auto;
+   float: none;
  }
