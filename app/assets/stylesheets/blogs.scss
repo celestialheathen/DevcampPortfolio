@@ -1,4 +1,6 @@
 @import "bootstrap";
+@import "font-awesome";
+
 
 /* stylelint-disable selector-list-comma-newline-after */
 
@@ -135,4 +137,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .btn-primary {
   margin-top: 10px;
+}
+
+a {
+  text-decoration: none;
 }
