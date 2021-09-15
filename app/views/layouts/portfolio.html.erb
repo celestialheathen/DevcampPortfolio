@@ -30,5 +30,18 @@
 
     <%= source_helper %>
 
+    <script>
+      const header = document.getElementById('navbarHeader')
+      const btn = document.querySelector('.navbar-toggler')
+
+      btn.addEventListener('click', () => {
+        if (header.classList.contains('collapse')) {
+          header.classList.remove('collapse')
+        } else {
+          header.classList.add('collapse')
+        }
+      })
+    </script>
+
   </body>
 </html>
